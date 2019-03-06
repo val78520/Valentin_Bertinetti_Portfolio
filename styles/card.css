@@ -1,0 +1,46 @@
+.card
+{
+  border: none;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.1);
+}
+
+.card-title
+{
+  color: #646464;
+}
+
+.card-texte
+{
+  color: #646464;
+}
+
+#imgcard
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bac-img
+{
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sowee-img
+{
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#esd-img
+{
+  width: 260px;
+}
+
+#gmm-img
+{
+  width: 275px;
+}

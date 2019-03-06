@@ -1,0 +1,166 @@
+@media screen and (max-width: 414px) {
+/*--------- PARALAXE MEDIA QUERIES---------------- */
+  .section1
+  {
+    background-image: url('../image/voiture1.jpg');
+    background-size: cover;
+    height: 210px;
+    /* align-items: flex-start; */
+    background-position: top;
+  }
+
+  .title_para
+  {
+    margin-left: 22px;
+    margin-bottom: 0px;
+    margin-right: 200px;
+  }
+
+  .section2
+  {
+    height: 1000px;
+    /* align-items: flex-start; */
+    background-position: top; */
+  }
+
+  .bg2::after
+  {
+    /* position: fixed;
+    top: 926px; */
+  }
+
+  .section3
+  {
+    background-image: url('../image/voiture2.jpg');
+    background-size: cover;
+    height: 210px;
+    /* align-items: flex-start; */
+    background-position: top;
+  }
+
+  .title_para2
+  {
+    margin-right: 15px;
+    margin-left: 230px;
+  }
+
+  .section4
+  {
+    height: 2750px;
+    /* align-items: flex-start; */
+    background-position: top; */
+  }
+
+  .t1
+  {
+    font-size: 25px;
+  }
+
+  .t2
+  {
+    font-size: 15px;
+  }
+
+/*--------- NAV MEDIA QUERIES---------------- */
+
+  .logo_menu
+  {
+    width: 60px;
+  }
+
+/*--------- CSS GRID MEDIA QUERIES---------------- */
+
+  .grid
+  {
+
+    margin-left: 4px;
+    margin-right: 4px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .stat {
+   background: white;
+   border: solid rgba(0,0,0,0.2) 0.8px;
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   border-radius: 2px;
+   }
+
+   .pp
+   {
+     background-size: 110px;
+     width: 110px;
+     height: 110px;
+   }
+
+  .profil
+  {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    transition: 0.4s;
+  }
+
+  .stat1
+  {
+    display: none;
+  }
+
+  .stat2
+  {
+    display: none;
+  }
+
+  .stat3
+  {
+    display: none;
+  }
+
+  /*--------------- ABOUT CONFIG ---------------*/
+
+  .about
+  {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+  }
+/*--------------- CARD CONFIG ---------------*/
+
+  #bac-img
+  {
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #sowee-img
+  {
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #esd-img
+  {
+    width: 260px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #gmm-img
+  {
+    width: 275px;
+    margin-top: 20px;
+  }
+
+/*--------------- FOOTER CONFIG ---------------*/
+
+  #about-footer
+  {
+    display: none;
+  }
+
+}
